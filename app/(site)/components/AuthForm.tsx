@@ -8,6 +8,8 @@ import Input from "@/app/components/inputs/Input";
 import AuthSocialButton from './AuthSocialButton';
 import Button from "@/app/components/Button";
 
+import axios from "axios";
+
 type Variant = 'LOGIN' | 'REGISTER';
 
 const AuthForm = () => {
@@ -41,7 +43,7 @@ const AuthForm = () => {
         setIsLoading(true);
 
         if (variant === 'REGISTER') {
-            // register new user
+            axios.post('/api/register', data);
         }
         if (variant === 'LOGIN') {
             // next auth
