@@ -30,7 +30,6 @@ export async function POST(
 
         return NextResponse.json(updatedUser)
     } catch (error) {
-        console.log(error, 'ERROR_MESSAGES')
         return new NextResponse('Error', { status: 500 });
     }
 }
