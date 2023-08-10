@@ -111,6 +111,10 @@ Running commands with npm `npm run [command]`
 | :-------------- | :--------------------------------------- |
 | `dev`           | Starts a development instance of the app |
 
+## Contributing
+
+We welcome contributions to enhance Realtime Chat Application. If you find issues or have ideas for improvements, feel free to create a pull request or submit an issue in the repository.
+
 ## License
 
 This project is not licensed.
