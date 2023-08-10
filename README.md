@@ -1,35 +1,58 @@
-# Real-Time Messenger Clone: Next.js 13, React, Tailwind, Prisma, MongoDB, NextAuth, Pusher (2023)
+# Realtime Chat App
 
-![Copy of Copy of Fullstack Twitter Clone (1)](https://user-images.githubusercontent.com/23248726/236631198-90414da5-ee43-46a9-8898-70b003bcd83d.png)
+"Realtime Chat App" is a dynamic and feature-rich messaging platform that utilizes cutting-edge technologies to provide users with a real-time communication experience. The frontend is developed using Next.js and Typescript, while the backend relies on Prisma as an ORM to seamlessly interact with a MongoDB database hosted on MongoDB Atlas, a cloud-based database service. While not a full replica of applications like WhatsApp or Messenger, the "Realtime Chat App" aims to encapsulate key features of modern messaging apps.
 
+## Key Features
 
-This is a repository for a Real-Time Messenger Clone: Next.js 13, React, Tailwind, Prisma, MongoDB, NextAuth, Pusher.
+- **Real-time Messaging**: Experience seamless real-time messaging capabilities through the integration of Pusher, allowing users to engage in instant conversations.
 
-Key Features:
+- **Message Notifications and Alerts**: Stay informed with message notifications and alerts, ensuring you never miss an important conversation.
 
-- Real-time messaging using Pusher
-- Message notifications and alerts
-- Tailwind design for sleek UI
-- Tailwind animations and transition effects
-- Full responsiveness for all devices
-- Credential authentication with NextAuth
-- Google authentication integration
-- Github authentication integration
-- File and image upload using Cloudinary CDN
-- Client form validation and handling using react-hook-form
-- Server error handling with react-toast
-- Message read receipts
-- Online/offline user status
-- Group chats and one-on-one messaging
-- Message attachments and file sharing
-- User profile customization and settings
-- How to write POST, GET, and DELETE routes in route handlers (app/api)
-- How to fetch data in server React components by directly accessing the database (WITHOUT API! like Magic!)
-- Handling relations between Server and Child components in a real-time environment
-- Creating and managing chat rooms and channels
+- **Sleek UI with Tailwind Design**: Enjoy a sleek and user-friendly interface with Tailwind design, enhancing the visual appeal of the application.
 
-Whether you're an experienced developer looking to expand your skillset or a beginner eager to learn the latest web development technologies, this tutorial has something for everyone. Join us on this exciting journey and take your web development skills to new heights!
+- **Animations and Transitions**: Elevate the user experience with Tailwind animations and smooth transition effects, providing a modern and engaging interface.
 
+- **Full Responsiveness**: Access the "Realtime Chat App" on any device, thanks to its full responsiveness design catering to various screen sizes.
+
+- **Authentication with NextAuth**: Ensure secure access with credential authentication powered by NextAuth, supporting Google and GitHub authentication integration.
+
+- **File and Image Uploads**: Facilitate efficient communication with file and image upload capabilities using Cloudinary CDN.
+
+- **Client Form Validation**: Implement robust client form validation and handling using react-hook-form, enhancing the user input experience.
+
+- **Server Error Handling**: Enhance user experience with server error handling using react-toast, ensuring users are informed about any issues.
+
+- **Message Read Receipts**: Know when your messages have been read with message read receipts, enhancing communication clarity.
+
+- **User Status**: Stay informed about the online/offline status of users, enabling effective communication timing.
+
+- **Group Chats and One-on-One Messaging**: Engage in both group chats and private one-on-one messaging, catering to various communication needs.
+
+- **Message Attachments and Sharing**: Share files and attachments within conversations, promoting efficient information exchange.
+
+- **User Profile Customization**: Personalize your user profile and customize settings to match your preferences.
+
+"Realtime Chat App" doesn't replicate the complete functionalities of apps like WhatsApp or Messenger but brings a subset of their features to users in an elegant and interactive environment.
+
+## Tech Stack
+
+- **Frontend**: Developed using Next.js and Typescript, the frontend offers an efficient and responsive user interface.
+
+- **Backend**: Utilizes Prisma as an ORM to communicate with a MongoDB database hosted on MongoDB Atlas, ensuring efficient data handling.
+
+## Key Concepts Covered
+
+- Handling real-time messaging
+- Authentication integration
+- File uploads and CDN usage
+- Responsive UI design
+- Data fetching in server React components
+- Server error handling
+- User status tracking
+- Group chats and private messaging
+- User profile customization
+
+Explore the next generation of messaging with "Realtime Chat App." Communicate, connect, and collaborate in real time.
 
 ### Prerequisites
 
@@ -38,7 +61,7 @@ Whether you're an experienced developer looking to expand your skillset or a beg
 ### Cloning the repository
 
 ```shell
-git clone https://github.com/AntonioErdeljac/next13-messenger.git
+git clone https://github.com/codewithmawais/realtime-chat-app.git
 ```
 
 ### Install packages
@@ -87,3 +110,9 @@ Running commands with npm `npm run [command]`
 | command         | description                              |
 | :-------------- | :--------------------------------------- |
 | `dev`           | Starts a development instance of the app |
+
+## License
+
+This project is not licensed.
+
+---
